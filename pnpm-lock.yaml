@@ -11,6 +11,7 @@ specifiers:
   eslint: ^8.10.0
   jsdom: ^19.0.0
   pnpm: ^6.32.3
+  ts-typing: ^0.0.1
   typescript: ^4.6.2
   unocss: ^0.27.6
   unplugin-auto-import: ^0.6.1
@@ -24,6 +25,7 @@ specifiers:
 
 dependencies:
   '@vueuse/core': 7.7.1_vue@3.2.31
+  ts-typing: 0.0.1
   vue: 3.2.31
   vue-router: 4.0.14_vue@3.2.31
 
@@ -3594,6 +3596,10 @@ packages:
     dependencies:
       punycode: 2.1.1
     dev: true
+
+  /ts-typing/0.0.1:
+    resolution: {integrity: sha512-nrLDKcfL0lZOl2yv813BWeLWr+b8Fp8vAjNdCOTBFYYa0W1oc3Mz5nS7hCaBe2wpfFzz8Ut4Al4Z6JhG1oqQMQ==}
+    dev: false
 
   /tsconfig-paths/3.12.0:
     resolution: {integrity: sha512-e5adrnOYT6zqVnWqZu7i/BQ3BnhzvGbjEjejFXO20lKIKpwTaupkCPgEfv4GZK1IBciJUEhYs3J3p75FdaTFVg==}

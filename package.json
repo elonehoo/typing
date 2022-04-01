@@ -11,6 +11,7 @@
   },
   "dependencies": {
     "@vueuse/core": "^7.7.1",
+    "ts-typing": "^0.0.1",
     "vue": "^3.2.31",
     "vue-router": "^4.0.14"
   },

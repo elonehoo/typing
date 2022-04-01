@@ -1,8 +1,10 @@
 <script setup lang="ts">
-  import AutoType from '~/typing'
+  import AutoType  from 'ts-typing/src/index'
   onMounted(()=>{
     const text = [
-      { type: 'text', text: 'hello' ,time:100 },
+      { type: 'text', text: 'hello???' },
+      { type:'delete',num:3},
+      { type: 'text', text: ' !' },
       { type: 'br' },
       { type: 'text', text: 'my name is ' },
       { type: 'text', text: 'Elone hoo !' },
@@ -10,9 +12,6 @@
 
 const autoType = new AutoType('#content', text, {
   speed: 200, // 每次打字的间隔
-  end: function(){
-    console.log('end')
-  }
 })
 
 autoType.run()
