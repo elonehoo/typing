@@ -3,9 +3,9 @@
   onMounted(()=>{
     const text = [
       { type: 'text', text: 'hello' ,time:100 },
-  { type: 'br' },
-  { type: 'text', text: 'my name is ' },
-  { type: 'text', text: 'Elone hoo !' },
+      { type: 'br' },
+      { type: 'text', text: 'my name is ' },
+      { type: 'text', text: 'Elone hoo !' },
     ]
 
 const autoType = new AutoType('#content', text, {
