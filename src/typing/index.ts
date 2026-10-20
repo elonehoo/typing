@@ -1,9 +1,8 @@
 import coreMixin from '~/typing/autotype/core'
 import initMixin from '~/typing/autotype/init'
-import { warn, $ } from '~/typing/util'
+import { $, warn } from '~/typing/util'
 
-function Typing (el, actions, options) {
-  
+function Typing(el, actions, options) {
   this.$el = typeof el === 'string' ? $(el) : el
   if (!this.$el) {
     warn('can not resolve the content dom')
@@ -17,11 +16,10 @@ function Typing (el, actions, options) {
 
 Typing.defaultOptions = {
   speed: 200,
-  end: null
+  end: null,
 }
 
 initMixin(Typing)
 coreMixin(Typing)
 
 export default Typing
-

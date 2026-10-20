@@ -1,7 +1,7 @@
 import { merge } from '~/typing/util'
 
-function initMixin (Typing:any) {
-  Typing.prototype._init = function (actions:any, options:any) {
+function initMixin(Typing: any) {
+  Typing.prototype._init = function (actions: any, options: any) {
     this.$actions = actions
     this.$options = merge(Typing.defaultOptions, options || {})
     this.$queue = []
